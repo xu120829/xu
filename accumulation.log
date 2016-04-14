@@ -1,0 +1,7 @@
+js的call与apply示例：
+f.call(obj);
+f.apply(obj);
+功能类似于：
+obj.temp = f;
+obj.temp();
+delete obj.temp;
